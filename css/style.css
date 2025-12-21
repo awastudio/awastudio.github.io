@@ -6,16 +6,20 @@
 
 :root {
     --bg-dark: #0f1419;
-    --bg-card: #1a1f2e;
-    --accent-cyan: #00d4ff;
-    --accent-gold: #ffd700;
-    --text-primary: #e8eaed;
-    --text-secondary: #9aa0a6;
-    --border-color: #2d3748;
+    --bg-card: #161b22;
+    --bg-hover: #1f2937;
+
+    --accent: #3b82f6;
+    --accent-muted: #64748b;
+
+    --text-primary: #e5e7eb;
+    --text-secondary: #9ca3af;
+
+    --border-color: #27303f;
 }
 
 body {
-    background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1f2e 100%);
+    background: var(--bg-dark);
     color: var(--text-primary);
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.6;
@@ -42,50 +46,28 @@ body {
     gap: 10px;
     padding: 14px 28px;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
-    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
     color: var(--text-secondary);
-    font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
     text-decoration: none;
-    transition: all 0.3s ease;
-    position: relative;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .doc-nav-btn .icon {
-    font-size: 1.4rem;
-    transition: transform 0.3s ease;
+    font-size: 1.2rem;
 }
 
 .doc-nav-btn:hover {
-    border-color: var(--accent-cyan);
+    background: var(--bg-hover);
     color: var(--text-primary);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.2);
-}
-
-.doc-nav-btn:hover .icon {
-    transform: scale(1.1);
 }
 
 .doc-nav-btn.active {
-    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
-    border-color: transparent;
-    color: var(--bg-dark);
-    box-shadow: 0 8px 30px rgba(0, 212, 255, 0.4);
-}
-
-.doc-nav-btn.active::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 3px;
-    background: var(--accent-gold);
-    border-radius: 10px;
+    background: var(--bg-hover);
+    border-color: var(--accent);
+    color: var(--text-primary);
 }
 
 .header {
@@ -96,29 +78,23 @@ body {
 .game-title {
     font-family: 'Fredoka One', cursive;
     font-size: 3rem;
-    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-primary);
     margin-bottom: 10px;
 }
 
 .subtitle {
-    font-size: 1.4rem;
-    color: var(--text-primary);
-    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    font-weight: 500;
 }
 
 .divider {
-    height: 2px;
-    background: var(--accent-cyan);
+    height: 1px;
+    background: var(--border-color);
     margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
 }
 
 .document-box {
-    
     padding: 0;
 }
 
@@ -137,13 +113,13 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(0, 212, 255, 0.1);
-    border: 1px solid var(--accent-cyan);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
-    padding: 10px 18px;
+    padding: 8px 16px;
     font-size: 0.9rem;
-    color: var(--accent-cyan);
-    font-weight: 600;
+    color: var(--text-secondary);
+    font-weight: 500;
 }
 
 .language-selector {
@@ -153,51 +129,32 @@ body {
 .lang-dropdown {
     padding: 10px 40px 10px 18px;
     background: var(--bg-card);
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
     appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2300d4ff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 14px center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.2s ease;
 }
 
-.lang-dropdown:hover {
-    border-color: var(--accent-cyan);
-    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.3);
-    transform: translateY(-2px);
-}
-
+.lang-dropdown:hover,
 .lang-dropdown:focus {
+    border-color: var(--accent);
     outline: none;
-    border-color: var(--accent-cyan);
-    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.2);
 }
 
 .lang-dropdown option {
     background: var(--bg-card);
     color: var(--text-primary);
-    padding: 10px;
-}
-
-.content-divider {
-    display: none;
-}
-
-.content {
-    
 }
 
 .content h2 {
-    font-family: 'Fredoka One', cursive;
-    color: var(--accent-gold);
-    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+    font-size: 1.7rem;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -207,9 +164,9 @@ body {
 }
 
 .content h3 {
-    font-family: 'Fredoka One', cursive;
-    color: var(--accent-cyan);
-    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--accent-muted);
+    font-size: 1.25rem;
     margin-top: 25px;
     margin-bottom: 12px;
 }
@@ -233,20 +190,17 @@ body {
 }
 
 .content strong {
-    color: var(--accent-gold);
+    color: var(--text-primary);
     font-weight: 600;
 }
 
 .content a {
-    color: var(--accent-cyan);
+    color: var(--accent);
     text-decoration: none;
-    transition: opacity 0.3s ease;
-    border-bottom: 1px solid transparent;
 }
 
 .content a:hover {
-    opacity: 0.8;
-    border-bottom-color: var(--accent-cyan);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -263,17 +217,9 @@ body {
     }
 
     .subtitle {
-        font-size: 1.2rem;
-    }
-    
-    .content h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
-    .content h3 {
-        font-size: 1.2rem;
-    }
-    
     .doc-nav {
         flex-direction: column;
         gap: 8px;
