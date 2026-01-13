@@ -1,130 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Documents - Idle Crypto Tycoon</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
-            color: #e8eaed;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 600px;
-            text-align: center;
-        }
-        
-        .game-title {
-            font-family: 'Fredoka One', cursive;
-            font-size: 3rem;
-            background: linear-gradient(135deg, #00d4ff, #ffd700);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 20px;
-        }
-        
-        .subtitle {
-            font-size: 1.3rem;
-            color: #9aa0a6;
-            margin-bottom: 50px;
-        }
-        
-        .doc-cards {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .doc-card {
-            background: #1a1f2e;
-            border: 2px solid #2d3748;
-            border-radius: 16px;
-            padding: 30px;
-            width: 250px;
-            text-decoration: none;
-            color: #e8eaed;
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-        }
-        
-        .doc-card:hover {
-            border-color: #00d4ff;
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
-        }
-        
-        .doc-icon {
-            font-size: 3rem;
-        }
-        
-        .doc-title {
-            font-family: 'Fredoka One', cursive;
-            font-size: 1.3rem;
-            color: #00d4ff;
-        }
-        
-        .doc-description {
-            font-size: 0.9rem;
-            color: #9aa0a6;
-            line-height: 1.5;
-        }
-        
-        @media (max-width: 600px) {
-            .game-title {
-                font-size: 2rem;
-            }
-            
-            .doc-cards {
-                flex-direction: column;
-            }
-            
-            .doc-card {
-                width: 100%;
-            }
-        }
-    </style>
+    <title>Idle Crypto Tycoon - Build Your Crypto Empire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1 class="game-title">Idle Crypto Tycoon</h1>
-        <p class="subtitle">Legal Documents</p>
-        
-        <div class="doc-cards">
-            <a href="privacy-policy/" class="doc-card">
-                <div class="doc-icon">📜</div>
-                <h2 class="doc-title">Privacy Policy</h2>
-                <p class="doc-description">Learn how we collect, use, and protect your data</p>
+        <!-- Navigation -->
+        <nav class="doc-nav">
+            <a href="/" class="doc-nav-btn active">
+                <span class="icon">🏠</span>
+                Home
             </a>
-            
-            <a href="terms-of-service/" class="doc-card">
-                <div class="doc-icon">📋</div>
-                <h2 class="doc-title">Terms of Service</h2>
-                <p class="doc-description">Understand the rules and guidelines for using our game</p>
+            <a href="/docs/privacy-policy/" class="doc-nav-btn">
+                <span class="icon">🔒</span>
+                Privacy Policy
             </a>
+            <a href="/docs/terms-of-service/" class="doc-nav-btn">
+                <span class="icon">📜</span>
+                Terms of Service
+            </a>
+        </nav>
+
+        <!-- Header -->
+        <header class="header">
+            <h1 class="game-title">Idle Crypto Tycoon</h1>
+            <p class="subtitle">Build your crypto empire! Mine, upgrade, and become a blockchain tycoon!</p>
+        </header>
+
+        <div class="divider"></div>
+
+        <!-- Main Content -->
+        <div class="content homepage-content">
+            <section class="hero-section">
+                <p class="hero-text">
+                    Build your blockchain empire, mine BTC, and grow your passive income! 
+                    Start with just an old PC and climb to the top of the crypto world.
+                </p>
+
+                <div class="download-section">
+                    <a href="https://play.google.com/store/apps/details?id=com.awastudio.IdleCryptoTycoon" 
+                       class="download-btn" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <span class="icon">📱</span>
+                        Download on Google Play
+                    </a>
+                </div>
+            </section>
+
+            <h2>✨ Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>⚡ True Offline Earnings</h3>
+                    <p>Your empire keeps mining while you're away. Collect profits when you return and extend your offline time with boosts.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🔄 Progression & Prestige</h3>
+                    <p>Reset your progress to buy permanent multipliers. Unlock bigger profits, faster rigs, and boosted bonuses.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🤖 Strategic Automation</h3>
+                    <p>Purchase scripts to fully automate production. Upgrade from basic CPUs to powerful ASICs and the legendary QUANTUM MINER.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🎮 Dynamic Gameplay</h3>
+                    <p>Face hacker attacks, open mystery crates, complete missions, and discover random events that keep every session fresh.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>💎 Fair Free-to-Play</h3>
+                    <p>The entire game is playable without spending. Optional ads and IAPs available for players who want to accelerate progress.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>☁️ Cloud Save</h3>
+                    <p>Your progress is always safe with cloud saving. Enjoy regular updates with new content and features.</p>
+                </div>
+            </div>
+
+            <h2>⛏️ Why Play</h2>
+            <ul class="why-play-list">
+                <li><strong>Deep Idle Progression:</strong> Thousands of upgrade combinations and powerful prestige upgrades</li>
+                <li><strong>Fast Satisfaction:</strong> Immediate upgrades plus long-term strategy for maximum growth</li>
+                <li><strong>Dynamic Variety:</strong> Random events, minigames, and quick missions keep every session interesting</li>
+                <li><strong>For Everyone:</strong> Simple to learn for casual players, with deep strategy for crypto fans to master</li>
+            </ul>
+
+            <div class="cta-section">
+                <h2>🚀 Start Mining Now</h2>
+                <p>Download and start mining your way to billionaire status. Compete with your own high scores, optimize your automation, and become the ultimate Idle Crypto Tycoon!</p>
+                <a href="https://play.google.com/store/apps/details?id=com.awastudio.IdleCryptoTycoon" 
+                   class="download-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <span class="icon">⬇️</span>
+                    Get It on Google Play
+                </a>
+            </div>
         </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="/docs/privacy-policy/">Privacy Policy</a>
+                <span class="separator">•</span>
+                <a href="/docs/terms-of-service/">Terms of Service</a>
+            </div>
+            <p class="footer-copyright">© 2026 Awa Studio. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
