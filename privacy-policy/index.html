@@ -13,20 +13,30 @@
 </head>
 <body>
     <div class="container">
-        <nav class="doc-nav">
-            <a href="/" class="doc-nav-btn">
-                <span class="icon">🏠</span>
-                <span>Home</span>
-            </a>
-            <a href="/privacy-policy/" class="doc-nav-btn active"> <!-- active AQUI -->
-                <span class="icon">🔒</span>
-                <span>Privacy Policy</span>
-            </a>
-            <a href="/terms-of-service/" class="doc-nav-btn">
-                <span class="icon">📜</span>
-                <span>Terms of Service</span>
-            </a>
-        </nav>
+        
+        <div class="nav-container">
+            <nav class="doc-nav">
+                <a href="/" class="doc-nav-btn">
+                    <span class="icon">🏠</span>
+                    <span>Home</span>
+                </a>
+                <a href="/privacy-policy/" class="doc-nav-btn active">
+                    <span class="icon">🔒</span>
+                    <span>Privacy Policy</span>
+                </a>
+                <a href="/terms-of-service/" class="doc-nav-btn">
+                    <span class="icon">📜</span>
+                    <span>Terms of Service</span>
+                </a>
+            </nav>
+            
+            <div class="language-selector">
+                <select id="lang-select" onchange="switchLanguage(this.value)" class="lang-dropdown">
+                    <option value="en" selected>🇺🇸 English</option>
+                    <option value="pt-br">🇧🇷 Português</option>
+                </select>
+            </div>
+        </div>
         
         <div class="header">
             <h1 class="game-title">Idle Crypto Tycoon</h1>
@@ -38,13 +48,6 @@
         <section class="document-box">
             <div class="top-bar">
                 <span class="last-updated" id="last-updated">📅 Loading...</span>
-                
-                <div class="language-selector">
-                    <select id="lang-select" onchange="switchLanguage(this.value)" class="lang-dropdown">
-                        <option value="en" selected>🇺🇸 English</option>
-                        <option value="pt-br">🇧🇷 Português</option>
-                    </select>
-                </div>
             </div>
             
             <div class="content" id="main-content">
@@ -53,7 +56,6 @@
         </section>
     </div>
     
-    <!-- MUDOU: de privacy.js para docs.js -->
     <script src="../js/docs.js"></script>
 </body>
 </html>
