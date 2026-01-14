@@ -4,106 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idle Crypto Tycoon - Build Your Crypto Empire</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- ← CORRIGIDO -->
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <!-- Navigation -->
-        <nav class="doc-nav">
-            <a href="/" class="doc-nav-btn active">
-                <span class="icon">🏠</span>
-                Home
-            </a>
-            <a href="/privacy-policy/" class="doc-nav-btn">
-                <span class="icon">🔒</span>
-                Privacy Policy
-            </a>
-            <a href="/terms-of-service/" class="doc-nav-btn">
-                <span class="icon">📜</span>
-                Terms of Service
-            </a>
-        </nav>
+        
+        <div class="nav-container">
+            <nav class="doc-nav">
+                <a href="/" class="doc-nav-btn active">
+                    <span class="icon">🏠</span>
+                    <span>Home</span>
+                </a>
+                <a href="/privacy-policy/" class="doc-nav-btn">
+                    <span class="icon">🔒</span>
+                    <span>Privacy Policy</span>
+                </a>
+                <a href="/terms-of-service/" class="doc-nav-btn">
+                    <span class="icon">📜</span>
+                    <span>Terms of Service</span>
+                </a>
+            </nav>
+            
+            <div class="language-selector">
+                <select id="lang-select" onchange="switchLanguage(this.value)" class="lang-dropdown">
+                    <option value="en" selected>🇺🇸 English</option>
+                    <option value="pt-br">🇧🇷 Português</option>
+                </select>
+            </div>
+        </div>
 
-        <!-- Header -->
+        
         <header class="header">
             <h1 class="game-title">Idle Crypto Tycoon</h1>
-            <p class="subtitle">Build your crypto empire! Mine, upgrade, and become a blockchain tycoon!</p>
+            <p class="subtitle" id="subtitle">Build your crypto empire! Mine, upgrade, and become a blockchain tycoon!</p>
         </header>
 
         <div class="divider"></div>
 
-        <!-- Main Content -->
-        <div class="content homepage-content">
+        
+        <div class="content homepage-content" id="main-content">
             <section class="hero-section">
-                <p class="hero-text">
+                <p class="hero-text" id="hero-text">
                     Build your blockchain empire, mine BTC, and grow your passive income! 
                     Start with just an old PC and climb to the top of the crypto world.
                 </p>
 
                 <div class="download-section">
-                    <!-- Botão oficial Google Play -->
                     <a href="https://play.google.com/store/apps/details?id=com.awastudio.IdleCryptoTycoon" 
+                       class="download-btn" 
                        target="_blank" 
                        rel="noopener noreferrer">
-                        <img src="images/google-play-badge-en.png" 
-                             alt="Get it on Google Play" 
-                             class="google-play-badge">
+                        <span class="icon">📱</span>
+                        <span id="download-text">Download on Google Play</span>
                     </a>
                 </div>
             </section>
 
-            <h2>✨ Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>⚡ True Offline Earnings</h3>
-                    <p>Your empire keeps mining while you're away. Collect profits when you return and extend your offline time with boosts.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🔄 Progression & Prestige</h3>
-                    <p>Reset your progress to buy permanent multipliers. Unlock bigger profits, faster rigs, and boosted bonuses.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🤖 Strategic Automation</h3>
-                    <p>Purchase scripts to fully automate production. Upgrade from basic CPUs to powerful ASICs and the legendary QUANTUM MINER.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🎮 Dynamic Gameplay</h3>
-                    <p>Face hacker attacks, open mystery crates, complete missions, and discover random events that keep every session fresh.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>💎 Fair Free-to-Play</h3>
-                    <p>The entire game is playable without spending. Optional ads and IAPs available for players who want to accelerate progress.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>☁️ Cloud Save</h3>
-                    <p>Your progress is always safe with cloud saving. Enjoy regular updates with new content and features.</p>
-                </div>
+            <h2 id="features-title">✨ Key Features</h2>
+            <div class="features-grid" id="features-grid">
+                
             </div>
 
-            <h2>⛏️ Why Play</h2>
-            <ul class="why-play-list">
-                <li><strong>Deep Idle Progression:</strong> Thousands of upgrade combinations and powerful prestige upgrades</li>
-                <li><strong>Fast Satisfaction:</strong> Immediate upgrades plus long-term strategy for maximum growth</li>
-                <li><strong>Dynamic Variety:</strong> Random events, minigames, and quick missions keep every session interesting</li>
-                <li><strong>For Everyone:</strong> Simple to learn for casual players, with deep strategy for crypto fans to master</li>
+            <h2 id="why-play-title">⛏️ Why Play</h2>
+            <ul class="why-play-list" id="why-play-list">
+                
             </ul>
 
-            <!-- Social Links Section (NOVO) -->
+            
             <div class="social-section">
-                <h2>🌐 Join Our Community</h2>
+                <h2 id="community-title">🌐 Join Our Community</h2>
                 <div class="social-links">
                     <a href="https://discord.gg/SEUCODIGO" 
                        class="social-btn discord" 
                        target="_blank" 
                        rel="noopener noreferrer"
                        title="Join our Discord">
-                        <img src="images/discord-icon.svg" alt="Discord" class="social-icon">
+                        <span class="social-emoji">💬</span>
                         <span>Discord</span>
                     </a>
                     
@@ -112,7 +89,7 @@
                        target="_blank" 
                        rel="noopener noreferrer"
                        title="Subscribe on YouTube">
-                        <img src="images/youtube-icon.svg" alt="YouTube" class="social-icon">
+                        <span class="social-emoji">▶️</span>
                         <span>YouTube</span>
                     </a>
                     
@@ -121,26 +98,26 @@
                        target="_blank" 
                        rel="noopener noreferrer"
                        title="Follow on X">
-                        <img src="images/x-icon.svg" alt="X (Twitter)" class="social-icon">
+                        <span class="social-emoji">🐦</span>
                         <span>X (Twitter)</span>
                     </a>
                 </div>
             </div>
 
             <div class="cta-section">
-                <h2>🚀 Start Mining Now</h2>
-                <p>Download and start mining your way to billionaire status. Compete with your own high scores, optimize your automation, and become the ultimate Idle Crypto Tycoon!</p>
+                <h2 id="cta-title">🚀 Start Mining Now</h2>
+                <p id="cta-text">Download and start mining your way to billionaire status. Compete with your own high scores, optimize your automation, and become the ultimate Idle Crypto Tycoon!</p>
                 <a href="https://play.google.com/store/apps/details?id=com.awastudio.IdleCryptoTycoon" 
+                   class="download-btn" 
                    target="_blank" 
                    rel="noopener noreferrer">
-                    <img src="images/google-play-badge-en.png" 
-                         alt="Get it on Google Play" 
-                         class="google-play-badge">
+                    <span class="icon">⬇️</span>
+                    <span id="cta-btn-text">Get It on Google Play</span>
                 </a>
             </div>
         </div>
 
-        <!-- Footer -->
+        
         <footer class="footer">
             <div class="footer-links">
                 <a href="/privacy-policy/">Privacy Policy</a>
@@ -150,5 +127,7 @@
             <p class="footer-copyright">© 2026 Awa Studio. All rights reserved.</p>
         </footer>
     </div>
+    
+    <script src="js/home.js"></script>
 </body>
 </html>
