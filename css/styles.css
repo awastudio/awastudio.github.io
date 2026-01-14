@@ -450,3 +450,95 @@ body {
         justify-content: center;
     }
 }
+
+/* ============================================
+   GOOGLE PLAY BADGE
+   ============================================ */
+.google-play-badge {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.google-play-badge:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* ============================================
+   SOCIAL LINKS SECTION
+   ============================================ */
+.social-section {
+    text-align: center;
+    margin: 50px 0;
+    padding: 40px 30px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.social-section h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.social-btn.discord:hover {
+    border-color: #5865F2;
+    box-shadow: 0 4px 12px rgba(88, 101, 242, 0.3);
+}
+
+.social-btn.youtube:hover {
+    border-color: #FF0000;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
+.social-btn.twitter:hover {
+    border-color: #1DA1F2;
+    box-shadow: 0 4px 12px rgba(29, 161, 242, 0.3);
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .google-play-badge {
+        height: 50px;
+    }
+    
+    .social-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .social-btn {
+        justify-content: center;
+    }
+}
