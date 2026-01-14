@@ -1,0 +1,49 @@
+{
+  "subtitle": "Build your crypto empire! Mine, upgrade, and become a blockchain tycoon!",
+  "heroText": "Build your blockchain empire, mine BTC, and grow your passive income! Start with just an old PC and climb to the top of the crypto world.",
+  "downloadBtn": "Download on Google Play",
+  "featuresTitle": "✨ Key Features",
+  "features": [
+    {
+      "icon": "⚡",
+      "title": "True Offline Earnings",
+      "description": "Your empire keeps mining while you're away. Collect profits when you return and extend your offline time with boosts."
+    },
+    {
+      "icon": "🔄",
+      "title": "Progression & Prestige",
+      "description": "Reset your progress to buy permanent multipliers. Unlock bigger profits, faster rigs, cheaper upgrades, and boosted delivery bonuses."
+    },
+    {
+      "icon": "🤖",
+      "title": "Strategic Automation",
+      "description": "Purchase scripts to fully automate production. Upgrade from basic CPUs to powerful ASICs and the legendary QUANTUM MINER."
+    },
+    {
+      "icon": "🎮",
+      "title": "Dynamic Gameplay",
+      "description": "Face hacker attacks, open mystery crates, complete missions, and discover random events that keep every session fresh."
+    },
+    {
+      "icon": "💎",
+      "title": "Fair Free-to-Play",
+      "description": "The entire game is playable without spending. Optional ads and IAPs available for players who want to accelerate progress."
+    },
+    {
+      "icon": "☁️",
+      "title": "Cloud Save",
+      "description": "Your progress is always safe with cloud saving. Enjoy regular updates with new content, features, and balance changes."
+    }
+  ],
+  "whyPlayTitle": "⛏️ Why Play",
+  "whyPlayItems": [
+    "<strong>Deep Idle Progression:</strong> Thousands of upgrade combinations and powerful prestige upgrades",
+    "<strong>Fast Satisfaction:</strong> Immediate upgrades plus long-term strategy for maximum growth",
+    "<strong>Dynamic Variety:</strong> Random events, minigames, and quick missions keep every session interesting",
+    "<strong>For Everyone:</strong> Simple to learn for casual players, with deep strategy for crypto fans to master"
+  ],
+  "communityTitle": "🌐 Join Our Community",
+  "ctaTitle": "🚀 Start Mining Now",
+  "ctaText": "Download and start mining your way to billionaire status. Compete with your own high scores, optimize your automation, and become the ultimate Idle Crypto Tycoon!",
+  "ctaBtn": "Get It on Google Play"
+}
