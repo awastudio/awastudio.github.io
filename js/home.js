@@ -31,13 +31,19 @@ async function loadHomepage(lang) {
         // Atualiza textos
         document.getElementById('subtitle').textContent = data.subtitle;
         document.getElementById('hero-text').textContent = data.heroText;
-        document.getElementById('download-text').textContent = data.downloadBtn;
         document.getElementById('features-title').textContent = data.featuresTitle;
         document.getElementById('why-play-title').textContent = data.whyPlayTitle;
         document.getElementById('community-title').textContent = data.communityTitle;
         document.getElementById('cta-title').textContent = data.ctaTitle;
         document.getElementById('cta-text').textContent = data.ctaText;
-        document.getElementById('cta-btn-text').textContent = data.ctaBtn;
+        
+        // Atualiza Google Play Badges (troca entre EN e PT-BR)
+        const badgeHero = document.getElementById('play-badge-hero');
+        const badgeCta = document.getElementById('play-badge-cta');
+        const badgeImage = lang === 'pt-br' ? 'images/google-play-badge-pt.png' : 'images/google-play-badge-en.png';
+        
+        if (badgeHero) badgeHero.src = badgeImage;
+        if (badgeCta) badgeCta.src = badgeImage;
         
         // Atualiza features
         const featuresGrid = document.getElementById('features-grid');
@@ -58,7 +64,7 @@ async function loadHomepage(lang) {
             whyPlayList.innerHTML += `<li>${item}</li>`;
         });
         
-        // Atualiza título
+        // Atualiza título da página
         document.title = `Idle Crypto Tycoon - ${data.subtitle}`;
         
     } catch (error) {
