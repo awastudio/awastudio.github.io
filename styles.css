@@ -94,6 +94,12 @@ body {
     margin-bottom: 30px;
 }
 
+.content-divider {
+    height: 1px;
+    background: var(--border-color);
+    margin: 20px 0;
+}
+
 .document-box {
     padding: 0;
 }
@@ -178,7 +184,7 @@ body {
     line-height: 1.7;
 }
 
-.content ul {
+.content ul:not(.why-play-list) {
     margin: 15px 0;
     padding-left: 30px;
 }
