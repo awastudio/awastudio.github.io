@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    
+    <!-- Meta refresh para redirecionar após 0 segundos -->
+    <meta http-equiv="refresh" content="0; url=/terms-of-service/">
+    
+    <!-- Link canônico para SEO -->
+    <link rel="canonical" href="https://awastudio.github.io/terms-of-service/">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #0f1419;
+            color: #e5e7eb;
+        }
+        .container {
+            text-align: center;
+        }
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.1);
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    
+    <script>
+        // Redirecionamento via JavaScript (backup)
+        window.location.replace('/terms-of-service/');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <p>Redirecting to Terms of Service...</p>
+        <p><a href="/terms-of-service/" style="color: #3b82f6;">Click here if not redirected automatically</a></p>
+    </div>
+</body>
+</html>
