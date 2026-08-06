@@ -1,49 +1,49 @@
 {
-  "subtitle": "Construa seu império cripto! Minere, evolua e seja um magnata da blockchain!",
-  "heroText": "Construa seu império blockchain, minere BTC e aumente sua renda passiva! Comece com um PC antigo e escale até o topo do mundo cripto.",
+  "subtitle": "Comece com um PC antigo, automatize a mineração e construa seu império.",
+  "heroText": "Transforme equipamentos básicos em uma operação avançada de mineração virtual. Evolua mineradores, automatize a produção, progrida offline e faça prestígio para conquistar bônus permanentes. Idle Crypto Tycoon é um jogo de simulação virtual e não minera nem concede criptomoedas reais.",
   "downloadBtn": "Baixar no Google Play",
   "featuresTitle": "✨ Principais Recursos",
   "features": [
     {
       "icon": "⚡",
-      "title": "Ganhos Offline de Verdade",
-      "description": "Seu império continua minerando enquanto você está fora. Colete os lucros quando voltar e estenda seu tempo offline com impulsos."
+      "title": "Progresso Offline",
+      "description": "Sua operação continua produzindo enquanto você está fora. Volte para coletar os ganhos offline e reinvista em mineradores e upgrades mais fortes."
     },
     {
       "icon": "🔄",
       "title": "Progressão e Prestígio",
-      "description": "Reinicie seu progresso para comprar multiplicadores permanentes. Desbloqueie lucros maiores, rigs mais rápidos, upgrades mais baratos e bônus de entrega turbinados."
+      "description": "Reinicie seu progresso quando o crescimento desacelerar, ganhe Tokens de Prestígio e desbloqueie bônus permanentes que tornam cada nova jornada mais rápida."
     },
     {
       "icon": "🤖",
       "title": "Automação Estratégica",
-      "description": "Compre scripts para automatizar completamente sua produção. Evolua de CPUs básicas para ASICs poderosos e o lendário MINERADOR QUÂNTICO."
+      "description": "Desbloqueie scripts para automatizar a produção. Evolua de computadores básicos e smartphones até rigs de mineração, ASICs, datacenters e o Minerador Quântico."
     },
     {
       "icon": "🎮",
-      "title": "Gameplay Dinâmico",
-      "description": "Enfrente ataques de hackers, abra caixas misteriosas, complete missões e descubra eventos aleatórios que mantêm cada sessão interessante."
+      "title": "Missões e Eventos Aleatórios",
+      "description": "Complete missões rápidas, colete Bônus de Entrega, enfrente ataques de hackers e descubra eventos aleatórios que tornam cada sessão mais variada."
     },
     {
       "icon": "💎",
-      "title": "Free-to-Play Justo",
-      "description": "O jogo inteiro é jogável sem gastar. Anúncios e compras opcionais (IAPs) estão disponíveis para jogadores que desejam acelerar o progresso."
+      "title": "Jogue do Seu Jeito",
+      "description": "Progrida jogando normalmente, use anúncios recompensados para melhorar recompensas específicas ou escolha compras opcionais para acelerar partes da sua jornada."
     },
     {
       "icon": "☁️",
-      "title": "Salvo na Nuvem",
-      "description": "Seu progresso está sempre seguro com o salvamento em nuvem. Aproveite atualizações regulares com novo conteúdo, funcionalidades e mudanças de balanceamento."
+      "title": "Salvamento na Nuvem e Atualizações",
+      "description": "Sincronize seu progresso entre dispositivos compatíveis com o salvamento na nuvem do Google Play Games e aproveite atualizações, melhorias e ajustes de balanceamento."
     }
   ],
   "whyPlayTitle": "⛏️ Por Que Jogar",
   "whyPlayItems": [
-    "<strong>Progressão Idle Profunda:</strong> Milhares de combinações de upgrades e melhorias de prestígio poderosas",
-    "<strong>Satisfação Rápida:</strong> Upgrades imediatos e estratégia de longo prazo para um crescimento máximo",
-    "<strong>Variedade Dinâmica:</strong> Eventos aleatórios, minigames e missões rápidas mantêm cada sessão interessante",
-    "<strong>Para Todos:</strong> Simples de aprender para jogadores casuais, com estratégia profunda para fãs de cripto dominarem"
+    "<strong>Progressão Visível:</strong> Comece com um PC antigo e desbloqueie mineradores cada vez mais poderosos",
+    "<strong>Automação Idle:</strong> Use scripts e upgrades para manter sua operação produzindo",
+    "<strong>Crescimento Permanente:</strong> Faça prestígio e fortaleça cada nova jornada com bônus permanentes",
+    "<strong>Mais Formas de Progredir:</strong> Complete missões, colete entregas, enfrente eventos e desbloqueie skins"
   ],
   "communityTitle": "🌐 Junte-se à Nossa Comunidade",
-  "ctaTitle": "🚀 Comece a Minerar Agora",
-  "ctaText": "Baixe e comece a minerar seu caminho para o status de bilionário. Supere seus próprios recordes, otimize sua automação e torne-se o maior Idle Crypto Tycoon!",
+  "ctaTitle": "🚀 Comece Pequeno. Cresça Muito.",
+  "ctaText": "Evolua mineradores, automatize sua operação, progrida offline e construa seu império virtual de mineração no Idle Crypto Tycoon.",
   "ctaBtn": "Baixar no Google Play"
 }
