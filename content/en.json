@@ -1,49 +1,49 @@
 {
-  "subtitle": "Build your crypto empire! Mine, upgrade, and become a blockchain tycoon!",
-  "heroText": "Build your blockchain empire, mine BTC, and grow your passive income! Start with just an old PC and climb to the top of the crypto world.",
+  "subtitle": "Start with an old PC, automate mining, and build your idle crypto empire.",
+  "heroText": "Turn basic hardware into an advanced virtual mining operation. Upgrade miners, automate production, progress while offline, and prestige for permanent bonuses. Idle Crypto Tycoon is a virtual simulation game and does not mine or reward real cryptocurrency.",
   "downloadBtn": "Download on Google Play",
   "featuresTitle": "✨ Key Features",
   "features": [
     {
       "icon": "⚡",
-      "title": "True Offline Earnings",
-      "description": "Your empire keeps mining while you're away. Collect profits when you return and extend your offline time with boosts."
+      "title": "Offline Progress",
+      "description": "Your operation keeps producing while you're away. Return to collect offline earnings and reinvest them in stronger miners and upgrades."
     },
     {
       "icon": "🔄",
       "title": "Progression & Prestige",
-      "description": "Reset your progress to buy permanent multipliers. Unlock bigger profits, faster rigs, cheaper upgrades, and boosted delivery bonuses."
+      "description": "Reset your progress when growth slows, earn Prestige Tokens, and unlock permanent bonuses that make every new run faster."
     },
     {
       "icon": "🤖",
       "title": "Strategic Automation",
-      "description": "Purchase scripts to fully automate production. Upgrade from basic CPUs to powerful ASICs and the legendary QUANTUM MINER."
+      "description": "Unlock scripts to automate production. Progress from basic computers and smartphones to mining rigs, ASICs, data centers, and the Quantum Miner."
     },
     {
       "icon": "🎮",
-      "title": "Dynamic Gameplay",
-      "description": "Face hacker attacks, open mystery crates, complete missions, and discover random events that keep every session fresh."
+      "title": "Missions & Random Events",
+      "description": "Complete quick missions, collect delivery bonuses, face hacker attacks, and discover random events that add variety to every session."
     },
     {
       "icon": "💎",
-      "title": "Fair Free-to-Play",
-      "description": "The entire game is playable without spending. Optional ads and IAPs available for players who want to accelerate progress."
+      "title": "Play Your Way",
+      "description": "Progress through regular play, use rewarded ads to improve selected rewards, or choose optional in-app purchases to accelerate parts of your journey."
     },
     {
       "icon": "☁️",
-      "title": "Cloud Save",
-      "description": "Your progress is always safe with cloud saving. Enjoy regular updates with new content, features, and balance changes."
+      "title": "Cloud Save & Updates",
+      "description": "Sync your progress across supported devices with Google Play Games cloud save and enjoy regular updates, improvements, and balance changes."
     }
   ],
   "whyPlayTitle": "⛏️ Why Play",
   "whyPlayItems": [
-    "<strong>Deep Idle Progression:</strong> Thousands of upgrade combinations and powerful prestige upgrades",
-    "<strong>Fast Satisfaction:</strong> Immediate upgrades plus long-term strategy for maximum growth",
-    "<strong>Dynamic Variety:</strong> Random events, minigames, and quick missions keep every session interesting",
-    "<strong>For Everyone:</strong> Simple to learn for casual players, with deep strategy for crypto fans to master"
+    "<strong>Visible Progression:</strong> Start with an old PC and unlock increasingly powerful miners",
+    "<strong>Idle Automation:</strong> Use scripts and upgrades to keep your operation producing",
+    "<strong>Permanent Growth:</strong> Prestige for bonuses that make every new run stronger",
+    "<strong>More Ways to Progress:</strong> Complete missions, collect deliveries, face events, and unlock skins"
   ],
   "communityTitle": "🌐 Join Our Community",
-  "ctaTitle": "🚀 Start Mining Now",
-  "ctaText": "Download and start mining your way to billionaire status. Compete with your own high scores, optimize your automation, and become the ultimate Idle Crypto Tycoon!",
+  "ctaTitle": "🚀 Start Small. Build Big.",
+  "ctaText": "Upgrade miners, automate your operation, progress while offline, and build your virtual mining empire in Idle Crypto Tycoon.",
   "ctaBtn": "Get It on Google Play"
 }
